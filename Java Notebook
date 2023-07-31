@@ -1,2 +1,4 @@
 -- produces output
-System.output.println("Produce this output")
+System.out.println("Produce this output");
+System.out.println(5);
+
