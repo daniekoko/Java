@@ -2,3 +2,4 @@
 System.out.println("Produce this output");
 System.out.println(5);
 
+-- To declare a variable use the type followed by the name of the variable.
