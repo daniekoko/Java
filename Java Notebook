@@ -1,5 +1,23 @@
--- produces output
+// The code below produces an output. The output is 5.
 System.out.println("Produce this output");
 System.out.println(5);
 
--- To declare a variable use the type followed by the name of the variable.
+//To declare a variable use the type followed by the name of the variable.
+String name = "Dan";
+int age = 20;
+double balance = 7.2;
+
+//import the Scanner class (used to take input)
+import java.util.Scanner;
+
+//creates Scanner object
+Scanner sc = newScanner(System.in);
+
+//Sample code below shows how to input different data types
+String name = sc.nextLine();
+int age = sc.nextInt();
+double price = sc.nextDouble();
+float average = sc.nextFloat();
+boolean isAvailable = sc.nextBoolean();
+
+
