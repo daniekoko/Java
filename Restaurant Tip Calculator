@@ -1,0 +1,35 @@
+/*For this project, I created a tip calculator to functions to calculate multiple standard tip amounts.
+The program takes a restaurant bill amount as input and outputs a corresponding tip amount*/
+
+//Write a program that calculates a tip equal to 10% of the restaurant bill amount.
+import java.util.Scanner;
+public class Program {
+  public static void main(String[]
+args) {
+    `  Scanner sc=new Scanner(System.in);
+       double bill=sc.nextDouble();
+       System.out.println(bill*0.10);
+       }
+}
+
+//Write a program that calculates a tip equal to 15% of the restaurant bill amount.
+import java.util.Scanner;
+public class Program {
+  public static void main(String[]
+args) {
+       Scanner sc=new Scanner(System.in);
+       double bill=sc.nextDouble();
+       System.out.println(bill*0.15);
+       }
+}
+
+//Write a program that calculates a tip equal to 20% of the restaurant bill amount.
+import java.util.Scanner;
+public class Program {
+  public static void main(String[]
+args) {
+       Scanner sc=new Scanner(System.in);
+       double bill=sc.nextDouble();
+       System.out.println(bill*0.20);
+       }
+  }
