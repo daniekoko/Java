@@ -1,0 +1,18 @@
+/* This program calculates the points earned by a player in a chess tournament who won 6 games and had 2 draws. 
+In this tournament, every win is worth two points and a draw is worth 0.5 points.
+This program declares variables wins and ties with corresponding values. */
+
+public class Program {
+    public static void main (String[] args) {
+          //store the number of wins as a variable
+          int wins = 6;
+          //store the number of draws as a variable
+          int draws = 2;
+          //calculate the points earned from the wins and store them in the w_points variable
+          int w_points = 6*2;
+          //calculate the points earned from the draws and store them in the d_points variable
+          int d_points = draws*0.5;
+          //outputs the total points the player earned
+          System.out.println(w_points+d_points);
+}
+}
