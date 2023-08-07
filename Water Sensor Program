@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class Program {
+public class WaterSensorProgram {
     public static void main (String[] args) {
         Scanner sc=new Scanner(System.in);
         //take temperature as input
