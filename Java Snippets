@@ -6,12 +6,24 @@ System.out.println(5);
 String name = "Dan";
 int age = 20;
 double balance = 7.2;
+float weight = 175.8f;
+char letter = 'B';
+boolean online = true;
 
-//import the Scanner class (used to take input)
+//import Scanner class (used to take input)
 import java.util.Scanner;
 
 //creates Scanner object
 Scanner sc = newScanner(System.in);
+
+//modulo % operator returns the remainder of a division
+int snacks = 45;
+int result = 45 % 4;
+
+//Concatenation. This example adds strings together with a space. 
+String firstname = "Mark";
+String lastname = "Johnson";
+String fullname = firstname+" "+lastname;
 
 //Sample code below shows how to input different data types
 String name = sc.nextLine();
