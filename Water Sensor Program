@@ -1,0 +1,15 @@
+//This program checks if water has reached the boiling point of 100 degrees Celsius. 
+
+import java.util.Scanner;
+
+public class Program {
+    public static void main (String[] args) {
+        Scanner sc=new Scanner(System.in);
+        //take temperature as input
+        int temperature=sc.nextInt();
+        //output "Boiling" if the temperature is above or equal to 100
+        if(temperature>=100) {System.out.println("Boiling");}
+        //output "Not boiling yet" if the boiling condition has not been met yet
+        else {System.out.println("Not boiling yet");}
+    }
+}
