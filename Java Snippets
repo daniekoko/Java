@@ -1,9 +1,9 @@
-// The code below produces outputs. Print and println can print strings, characters and numbers.
+// The code below produces outputs and utilizes the println method. N/B:Print and println can print strings, characters and numbers.
 System.out.println("Produce this output");
 System.out.println(5);
 System.out.println(); // prints empty line
 
-//Use the print method to print strings into a single line.
+//Use the print method to print information into a single line.
 System.out.print("This ");
 System.out.print("will ");
 System.out.print("show.");
