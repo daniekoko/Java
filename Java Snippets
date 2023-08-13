@@ -8,6 +8,13 @@ System.out.print("This ");
 System.out.print("will ");
 System.out.print("show.");
 
+// Introduce a new line with /n
+class TicTacToe {
+    public static void main(String[] args) {
+        System.out.println("O X X\nO X O\nX O X");    
+    }
+}
+
 //To declare a variable use the type followed by the variable's name.
 String name = "Dan";
 int age = 20;
