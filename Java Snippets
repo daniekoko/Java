@@ -1,8 +1,14 @@
-// The code below produces an output. The output is 5.
+// The code below produces outputs. Print and println can print strings, characters and numbers.
 System.out.println("Produce this output");
 System.out.println(5);
+System.out.println(); // prints empty line
 
-//To declare a variable use the type followed by the name of the variable.
+//Use the print method to print strings into a single line.
+System.out.print("This ");
+System.out.print("will ");
+System.out.print("show.");
+
+//To declare a variable use the type followed by the variable's name.
 String name = "Dan";
 int age = 20;
 double balance = 7.2;
