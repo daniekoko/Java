@@ -1,0 +1,18 @@
+/*This program determines if someone can enter the country of Canada without a visa based on their citizenship. 
+Canada allows visitors of select citizenships to enter without a visa as long as they have an approved travel authorization. 
+The permitted citizenships to Canada code were found in the "eTA for Canada:Country List" on this website: https://www.handyvisas.com/visa-policy/canada/
+The program will take a person's passport citizenship as input and output a phrase that informs them of their status*/
+
+import java.util.Scanner;
+
+public class canadaBorderEntry {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String citizenship = sc.nectLine();
+
+        if((citizenship == "Andorra")) {
+        System.out.println("Allowed without visa");
+        }
+        else {System.out.println("Not allowed without visa");}
+    }
+}
