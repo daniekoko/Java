@@ -3,7 +3,7 @@ The program takes a restaurant bill amount as input and outputs a corresponding 
 
 //Write a program that calculates a tip equal to 10% of the restaurant bill amount.
 import java.util.Scanner;
-public class Program {
+public class tipCalculator10 {
   public static void main(String[]
 args) {
     `  Scanner sc=new Scanner(System.in);
@@ -14,7 +14,7 @@ args) {
 
 //Write a program that calculates a tip equal to 15% of the restaurant bill amount.
 import java.util.Scanner;
-public class Program {
+public class tipCalculator15 {
   public static void main(String[]
 args) {
        Scanner sc=new Scanner(System.in);
@@ -25,7 +25,7 @@ args) {
 
 //Write a program that calculates a tip equal to 20% of the restaurant bill amount.
 import java.util.Scanner;
-public class Program {
+public class tipCalculator20 {
   public static void main(String[]
 args) {
        Scanner sc=new Scanner(System.in);
